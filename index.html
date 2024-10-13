@@ -340,7 +340,7 @@
     var markers = L.markerClusterGroup();
 
     // Memuat data GeoJSON dari file "kebun.geojson"
-    $.getJSON("kebun_gapoktan_jambi.geojson", function (data) {
+    $.getJSON("kebun_gapoktan_jambi.geojsono", function (data) {
       kebunAndPulsingLayer.addData(data);
       markers.addLayer(kebunAndPulsingLayer);
       map.addLayer(markers);
